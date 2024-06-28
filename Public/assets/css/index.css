@@ -1,0 +1,64 @@
+:root{
+    --text-color-a : #777777
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-color-theme {
+color: var(--text-color-a);
+font-size: 15px;
+}
+.bg-line {
+    background: url("../images/Bg\ Lines\ Group.jpg");
+}
+.bg-contact {
+    background-color: #f0f3f8;
+}
+.login-box {
+    background-color: #B8CCF24F;
+    height: 90vh;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: 50% 50;
+}
+.bg-login-card {
+    background-color: #ebeff5 !important;
+    width: 30%;
+}
+.form-control, .login-btn button {
+    font-size: 14px !important;
+    padding-top: .9rem !important;
+    padding-bottom: 1.1rem !important;
+}
+input {
+    border : 2px solid #e2edff !important;  
+}
+.bd-pass-icon {
+    position: absolute;
+    right: 37px;
+    bottom: 8.6rem;
+  } 
+.text-h2 {
+    color: #1445A1;
+    font-size: 24px;
+    font-weight: bold;
+}
+.login-btn button {
+    background-color: #1A5CD6;
+}
+.login-btn button:hover {
+    background-color: #356cd3 !important;
+}
+.login-btn button:focus-visible {
+    background-color: #356cd3 !important  ;
+}
+.login-btn button:active {
+    background-color: #356cd3 !important;
+}
+
+@media screen and (max-width : 767px) {
+    .bg-login-card {
+        width: 95%;
+    }
+    
+}
